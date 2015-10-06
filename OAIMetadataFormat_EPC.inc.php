@@ -27,7 +27,7 @@ class OAIMetadataFormat_EPC extends OAIMetadataFormat {
 	 */
 	function toXml(&$record, $format = null) {
 		$publicationFormat =& $record->getData('publicationFormat');
-		$description = $publicationFormat->extractMetadata(new Epc10Schema());
+ 		$description = $publicationFormat->extractMetadata(new Epc10Schema());
 		
 		$xmlFilter = new Epc10DescriptionXmlFilter(PersistableFilter::tempGroup(
 				'metadata::plugins.metadata.epc10.schema.Epc10Schema(*)',

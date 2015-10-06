@@ -45,11 +45,11 @@ class OAIMetadataFormatPlugin_EPC extends OAIMetadataFormatPlugin {
 	}
 
 	static function getMetadataPrefix() {
-		return 'oai_EPC';
+		return 'epicur';
 	}
 	
 	static function getSchema() {
-		return 'http://www.persistent-identifier.de/xepicur/version1.0/xepicur.xsd';
+		return 'urn:nbn:de:1111-2004033116 http://www.persistent-identifier.de/xepicur/version1.0/xepicur.xsd';
 	}
 
 	static function getNamespace() {

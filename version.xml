@@ -10,7 +10,7 @@
   * Plugin version information.
   -->
 <version>
-	<application>xmdp</application>
+	<application>epicur</application>
 	<type>plugins.oaiMetadataFormats</type>
 	<release>1.0.0.0</release>
 	<date>2015-10-05</date>

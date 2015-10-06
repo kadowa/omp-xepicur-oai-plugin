@@ -12,6 +12,6 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.oaiMetadata.epc.displayName">xepicur Metadata Format</message>
-	<message key="plugins.oaiMetadata.epc.description">epicur transfer syntax.</message>
+	<message key="plugins.oaiMetadata.epc.displayName">Epicur Metadata Format</message>
+	<message key="plugins.oaiMetadata.epc.description">Epicur transfer syntax.</message>
 </locale>

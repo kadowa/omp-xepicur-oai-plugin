@@ -7,7 +7,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @ingroup plugins_oaiMetadataFormats
- * @brief Wrapper for the epicur OAI format plugin.
+ * @brief Wrapper for the Epicur OAI format plugin.
  *
  */
 
