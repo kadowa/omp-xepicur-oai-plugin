@@ -21,13 +21,16 @@ import('plugins.metadata.epc10.schema.Epc10Schema');
 import('plugins.metadata.epc10.filter.Epc10DescriptionXmlFilter');
 
 class OAIMetadataFormat_EPC extends OAIMetadataFormat {
+	var $recordObjext;
 
 	/**
 	 * @copydoc OAIMetadataFormat::toXML
 	 */
 	function toXml(&$record, $format = null) {
 		$publicationFormat =& $record->getData('publicationFormat');
- 		$description = $publicationFormat->extractMetadata(new Epc10Schema());
+		$monograph =& $record->getData('monograph');
+
+ 		$description = $monograph->extractMetadata(new Epc10Schema());
 		
 		$xmlFilter = new Epc10DescriptionXmlFilter(PersistableFilter::tempGroup(
 				'metadata::plugins.metadata.epc10.schema.Epc10Schema(*)',
