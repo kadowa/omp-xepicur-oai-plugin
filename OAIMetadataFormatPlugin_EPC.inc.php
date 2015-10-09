@@ -3,7 +3,8 @@
 /**
  * @file plugins/oaiMetadataFormats/epc/OAIMetadataFormatPlugin_EPC.inc.php
  *
- * Copyright (c) 2015 Heidelberg University
+ * Copyright (c) 2014-2015 Simon Fraser University Library
+ * Copyright (c) 2003-2015 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class OAIMetadataFormatPlugin_EPC
@@ -49,7 +50,7 @@ class OAIMetadataFormatPlugin_EPC extends OAIMetadataFormatPlugin {
 	}
 	
 	static function getSchema() {
-		return 'urn:nbn:de:1111-2004033116 http://www.persistent-identifier.de/xepicur/version1.0/xepicur.xsd';
+		return 'http://www.persistent-identifier.de/xepicur/version1.0/xepicur.xsd';
 	}
 
 	static function getNamespace() {

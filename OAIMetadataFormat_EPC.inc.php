@@ -1,17 +1,18 @@
 <?php
 
 /**
- * @defgroup oai_format_EPC Epicur OAI format plugin
+ * @defgroup oai_format_epc Epicur OAI format plugin
  */
 
 /**
  * @file plugins/oaiMetadataFormats/epc/OAIMetadataFormat_EPC.inc.php
  *
- * Copyright (c) 2015 Heidelberg University
+ * Copyright (c) 2014-2015 Simon Fraser University Library
+ * Copyright (c) 2003-2015 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class OAIMetadataFormat_EPC
- * @ingroup oai_format_EPC
+ * @ingroup oai_format_epc
  * @see OAI
  *
  * @brief OAI metadata format class -- Epicur.
@@ -21,8 +22,7 @@ import('plugins.metadata.epc10.schema.Epc10Schema');
 import('plugins.metadata.epc10.filter.Epc10DescriptionXmlFilter');
 
 class OAIMetadataFormat_EPC extends OAIMetadataFormat {
-	var $recordObjext;
-
+	
 	/**
 	 * @copydoc OAIMetadataFormat::toXML
 	 */
