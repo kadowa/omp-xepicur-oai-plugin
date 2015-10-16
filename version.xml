@@ -11,7 +11,7 @@
   * Plugin version information.
   -->
 <version>
-	<application>epicur</application>
+	<application>epc</application>
 	<type>plugins.oaiMetadataFormats</type>
 	<release>1.0.0.0</release>
 	<date>2015-10-09</date>
