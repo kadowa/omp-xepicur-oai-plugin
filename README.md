@@ -26,7 +26,7 @@ See the [COPYING][gpl-licence] included with OMP for the terms of this license.
 [omp]: https://github.com/pkp/omp
 [xepicur]: http://www.persistent-identifier.de/?link=210
 [epc10]: https://github.com/kadowa/omp-xepicur-metadata-plugin
-[epc10-readme]: https://github.com/kadowa/omp-xepicur-metadata-plugin/README.md
+[epc10-readme]: https://github.com/kadowa/omp-xepicur-metadata-plugin/blob/master/README.md
 [urn_dnb]: https://github.com/kadowa/omp-dnb-urn-plugin
 [dnb]: http://www.dnb.de
 [gpl-licence]: https://github.com/pkp/omp/blob/master/docs/COPYING
